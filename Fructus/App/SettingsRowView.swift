@@ -1,7 +1,7 @@
 //
 //  Created by Robert Petras
-//  Credo Academy ♥ Design and Code
-//  https://credo.academy
+//  SwiftUI Masterclass ♥ Better Apps. Less Code.
+//  https://swiftuimasterclass.com 
 //
 
 import SwiftUI

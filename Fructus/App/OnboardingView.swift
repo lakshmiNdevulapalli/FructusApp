@@ -1,7 +1,7 @@
 //
 //  Created by Robert Petras
-//  Credo Academy ♥ Design and Code
-//  https://credo.academy
+//  SwiftUI Masterclass ♥ Better Apps. Less Code.
+//  https://swiftuimasterclass.com 
 //
 
 import SwiftUI
@@ -29,6 +29,6 @@ struct OnboardingView: View {
 struct OnboardingView_Previews: PreviewProvider {
   static var previews: some View {
     OnboardingView(fruits: fruitsData)
-      .previewDevice("iPhone 13")
+      .previewDevice("iPhone 11 Pro")
   }
 }

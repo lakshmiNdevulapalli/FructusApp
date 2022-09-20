@@ -1,7 +1,7 @@
 //
 //  Created by Robert Petras
-//  Credo Academy ♥ Design and Code
-//  https://credo.academy
+//  SwiftUI Masterclass ♥ Better Apps. Less Code.
+//  https://swiftuimasterclass.com 
 //
 
 import SwiftUI
@@ -78,11 +78,11 @@ struct SettingsView: View {
           ) {
             SettingsRowView(name: "Developer", content: "John / Jane")
             SettingsRowView(name: "Designer", content: "Robert Petras")
-            SettingsRowView(name: "Compatibility", content: "iOS 16")
-            SettingsRowView(name: "Website", linkLabel: "Credo Academy", linkDestination: "credo.academy")
+            SettingsRowView(name: "Compatibility", content: "iOS 14")
+            SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
             SettingsRowView(name: "Twitter", linkLabel: "@RobertPetras", linkDestination: "twitter.com/robertpetras")
-            SettingsRowView(name: "SwiftUI", content: "4")
-            SettingsRowView(name: "Version", content: "1.5.0")
+            SettingsRowView(name: "SwiftUI", content: "2.0")
+            SettingsRowView(name: "Version", content: "1.1.0")
           }
           
         } //: VSTACK
@@ -107,6 +107,6 @@ struct SettingsView_Previews: PreviewProvider {
   static var previews: some View {
     SettingsView()
       .preferredColorScheme(.dark)
-      .previewDevice("iPhone 13")
+      .previewDevice("iPhone 11 Pro")
   }
 }

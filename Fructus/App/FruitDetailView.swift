@@ -1,7 +1,7 @@
 //
 //  Created by Robert Petras
-//  Credo Academy ♥ Design and Code
-//  https://credo.academy
+//  SwiftUI Masterclass ♥ Better Apps. Less Code.
+//  https://swiftuimasterclass.com 
 //
 
 import SwiftUI
@@ -66,6 +66,6 @@ struct FruitDetailView: View {
 struct FruitDetailView_Previews: PreviewProvider {
   static var previews: some View {
     FruitDetailView(fruit: fruitsData[0])
-      .previewDevice("iPhone 13")
+      .previewDevice("iPhone 11 Pro")
   }
 }

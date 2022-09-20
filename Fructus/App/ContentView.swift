@@ -1,8 +1,8 @@
 //
 //  Created by Robert Petras
-//  Credo Academy ♥ Design and Code
-//  https://credo.academy
-//  iOS 16
+//  SwiftUI Masterclass ♥ Better Apps. Less Code.
+//  https://swiftuimasterclass.com 
+//
 
 import SwiftUI
 
@@ -47,6 +47,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView(fruits: fruitsData)
-      .previewDevice("iPhone 13")
+      .previewDevice("iPhone 11 Pro")
   }
 }
